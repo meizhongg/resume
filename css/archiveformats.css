@@ -1,0 +1,19 @@
+/* skill bar */
+.slider {
+    position: relative;
+    height: 8px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.slider::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    background-color: aliceblue;
+    transform: translate(0%, -30%);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 95%;
+}
